@@ -6,12 +6,33 @@
 
 body{
     font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
-    background-color: aliceblue ;
+    background: rgb(70, 185, 243) url("/static/imagens/background.jpg") repeat-x;
 }
+
+#container{
+    width: 750px;
+    margin: 50px auto;
+}
+
 #topo {
     height: 150px;
-    border:aliceblue
+    border: 1px solid red;
+    background: url("/static/imagens/fundo3.png" ) no-repeat right center;
+    background-size: 200px;
+    padding: 25px;
+
 }
+
+.logo {
+    width: 150px;
+    height: 70px;
+    padding: 25px;
+    background: url(/static/imagens/logo.png) no-repeat center;
+    background-size: 125px;
+    text-indent: 300px;
+    
+}
+
 .branco{
     background-color: aliceblue;
     
